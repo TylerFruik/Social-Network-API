@@ -6,16 +6,12 @@
 DESCRIPTION
 
 This project was developed using the following skills: 
-
-All code is neatly commented for clarity's sake.
+JS, MongoDB, Insomnia
 
 All code written manually by Tyler Fruik.
 
-### Use Instructions:
-
-
-
 ### The following is a video of the final product:
+https://youtu.be/iMVgFuImigA
 
 
 ## Assignment Information
