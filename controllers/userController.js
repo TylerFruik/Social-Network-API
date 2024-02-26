@@ -58,7 +58,7 @@ module.exports = {
       );
 
       if (!user) {
-        res.sattus(404).json({ message: 'No user with that ID' });
+        res.satus(404).json({ message: 'No user with that ID' });
         return;
       }
       res.json(user);

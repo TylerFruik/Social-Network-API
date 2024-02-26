@@ -1,7 +1,7 @@
 const { Thought, User, Reaction } = require('../models');
 
 module.exports = {
-  async getThougts(req, res) {
+  async getThoughts(req, res) {
     try {
       const thoughts = await Thought.find();
       res.json(thoughts);
@@ -14,7 +14,7 @@ module.exports = {
       const thought = await Thought.findOne({ _id: req.params.thoughtId });
 
       if (!thought) {
-        return res.status(404).json({ message: 'No thoughtt with that ID' });
+        return res.status(404).json({ message: 'No thought with that ID' });
       }
 
       res.json(thought);
@@ -93,7 +93,7 @@ module.exports = {
       );
 
       if (!thought) {
-        res.status(404).json({ message: 'No thoughtt with that ID' });
+        res.status(404).json({ message: 'No thought with that ID' });
         return;
       }
       res.json(thought);
