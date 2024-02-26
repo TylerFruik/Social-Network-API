@@ -7,6 +7,10 @@ const cwd = process.cwd();
 const PORT = process.env.PORT || 3333;
 const app = express();
 
+const activity = cwd.includes('01-Activites')
+  ? cwd.split('01-Activities')[1]
+  : cwd;
+
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 app.use(routes);
