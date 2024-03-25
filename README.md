@@ -11,7 +11,7 @@ JS, MongoDB, Insomnia
 All code written manually by Tyler Fruik.
 
 ### The following is a video of the final product:
-https://youtu.be/iMVgFuImigA
+[https://youtu.be/iMVgFuImigA](https://youtu.be/GP1GO3kDk3o)
 
 
 ## Assignment Information
